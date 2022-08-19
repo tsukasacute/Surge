@@ -6,3 +6,4 @@ http-response ^https:\/\/(xy-viva\.kakalili|api-chn.rthdo)\.com\/api\/rest\/u\/v
 
 [MITM]
 hostname = %APPEND% xy-viva.kakalili.com, api-chn.rthdo.com
+tcp-connection = true
