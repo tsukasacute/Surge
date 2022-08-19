@@ -1,0 +1,6 @@
+#!name=Skip Proxy Lists
+#!desc=跳过部分应用的代理检测
+
+[General]
+
+skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.apple.com 
