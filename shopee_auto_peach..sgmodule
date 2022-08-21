@@ -1,0 +1,7 @@
+#!name=自動領取
+#!desc=20220822
+
+[Script]
+cron "30 */4 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_signin_bundle.js, wake-system=1, timeout=5
+cron "30 */4 * * *" script-path=https://kinta.ma/surge/scripts/shopee_water_mission_claim.js, wake-system=1, timeout=15
+cron "30 */4 * * *" script-path=https://kinta.ma/surge/scripts/shopee_grocery_store_water.js, wake-system=1, timeout=30
