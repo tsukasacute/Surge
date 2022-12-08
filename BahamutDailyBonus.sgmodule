@@ -4,4 +4,4 @@
 #!腳本網址: https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js
 
 [Script]
-cron "0 8 * * *" script-path=BahamutDailyBonus.js, wake-system=1, timeout=300
+cron "0 8,13 * * *" script-path=BahamutDailyBonus.js, wake-system=1, timeout=300
